@@ -284,6 +284,16 @@ B. Helpers
     }
 }
 
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .ts-fadeInDown {
     -webkit-animation-name: ts-fadeInDown;
             animation-name: ts-fadeInDown;
@@ -747,9 +757,12 @@ B. Helpers
 }
 
 .ts-bg-black {
-    background-color: #000;
+    background-color: #0173AF;
 }
 
+.ts-bg-grey {
+    background-color: #a5a5a5;
+}
 /*-------------------------------------------
   -- Height
 -------------------------------------------*/
@@ -2442,7 +2455,7 @@ body.has-loading-screen.loading-done #brand-navigation {
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: #1f1f1f;
+    background-color: #0173AF;
     border-right: .0625rem solid rgba(255, 255, 255, .2);
     font-size: 1.5rem;
     font-weight: 600;
